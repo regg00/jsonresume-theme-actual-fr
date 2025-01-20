@@ -46,17 +46,17 @@ npm install -g resume-cli
 - Create your [resume.json](https://jsonresume.org/schema/) file (you can start by editing [this](/resume.json))
 
 ```bash
-npm install jsonresume-theme-actual
+npm install jsonresume-theme-actual-fr
 
-resume export resume.pdf --format pdf --theme actual
-resume export resume.html --format html --theme actual
+resume export resume.pdf --format pdf --theme actual-fr
+resume export resume.html --format html --theme actual-fr
 ```
 
 ## Contribute
 
 ```bash
-git clone git@github.com:davcd/jsonresume-theme-actual.git
-cd jsonresume-theme-actual
+git clone https://github.com/regg00/jsonresume-theme-actual-fr.git
+cd jsonresume-theme-actual-fr
 
 npm install
 
