@@ -1,4 +1,8 @@
-# Actual theme for JSON Resume
+# Actual theme for JSON Resume in French
+
+> [!IMPORTANT]
+> This is simply a version of [this theme](https://github.com/davcd/jsonresume-theme-actual), but with headers translated to French.
+> It functions exactly the same and the documentation doesn't change at all.
 
 Minimalist and modern theme for [JSON Resume](https://jsonresume.org/) standard, designed for
 the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json).
@@ -129,10 +133,7 @@ This theme supports the following JSON paths
       "startDate": "2012-10-11",
       "endDate": "2014-12-24",
       "summary": "Lorem ipsum...",
-      "highlights": [
-        "Maecenas at dictum sem",
-        "Ut ac ex ac ipsum commodo"
-      ]
+      "highlights": ["Maecenas at dictum sem", "Ut ac ex ac ipsum commodo"]
     }
   ]
 }
@@ -214,10 +215,7 @@ This theme supports the following JSON paths
   "skills": [
     {
       "name": "Languages",
-      "keywords": [
-        "Java",
-        "Python"
-      ]
+      "keywords": ["Java", "Python"]
     }
   ]
 }
@@ -275,10 +273,7 @@ This theme supports the following JSON paths
     "startDate": "2011-08-26",
     "endDate": "2018-05-12",
     "url": "https://nodejs.org/",
-    "roles": [
-      "contributor",
-      "evangelist"
-    ]
+    "roles": ["contributor", "evangelist"]
   }
 }
 ```
