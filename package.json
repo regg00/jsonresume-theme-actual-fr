@@ -1,16 +1,19 @@
 {
-  "name": "jsonresume-theme-actual",
+  "name": "jsonresume-theme-actual-fr",
   "main": "index.js",
   "files": [
     "/assets",
     "index.js"
   ],
   "version": "0.2.2",
-  "description": "Actual theme for JSON Resume",
+  "description": "Actual theme for JSON Resume in French",
   "author": "David Carvajal",
+  "contributors": [
+    "Régis Tremblay Lefrançois"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/davcd/jsonresume-theme-actual"
+    "url": "https://github.com/regg00/jsonresume-theme-actual-fr"
   },
   "scripts": {
     "create-html": "resume export public/resume.html --format html --theme .",
