@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 jobs:
   version-check:
     runs-on: ubuntu-latest
@@ -35,7 +36,7 @@ jobs:
       - run: npm test
 
   publish-npm:
-    needs: [ version-check, run-test ]
+    needs: [version-check, run-test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -51,7 +52,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   create-tag:
-    needs: [ version-check, publish-npm ]
+    needs: [version-check, publish-npm]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v3
